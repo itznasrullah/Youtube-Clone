@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={
+          <Route path="/" exact element={
             <div className="main-video-list">
               <SideMenu /> <SuggestedVideosList />
             </div>}
@@ -21,8 +21,8 @@ function App() {
               <SideMenu /> <SuggestedVideosList />
             </div>}
           />
-          <Route path="searchResults" element={ <> <SideMenu /> <SearchResults /> </> } />
-          <Route path="video" element={<Video />} />
+          <Route path="/Youtube-Clone/searchResults" element={ <> <SideMenu /> <SearchResults /> </> } />
+          <Route path="/Youtube-Clone/video" element={<Video />} />
         </Routes>
       </div>
   );

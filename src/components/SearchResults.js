@@ -11,11 +11,13 @@ const SearchResults = () => {
   const searchtext = new URLSearchParams(search).get('search');
 
   useEffect(() => {
-    // console.log(searchtext);
-    SearchResult(searchtext).then((data) => {
-      setSearchApi(data);
-      console.log(data)
-    })
+    console.log(searchtext);
+    if(searchtext){
+      SearchResult(searchtext).then((data) => {
+        setSearchApi(data);
+        console.log(data)
+      })
+    }
   }, [searchtext])
 
 
@@ -24,7 +26,7 @@ const SearchResults = () => {
       {
         SearchApi && SearchApi.data.map((data, i) => {
           if (data.type === "video") {
-            return <Link to={`/video?videoid=${data.videoId}`}><SearchResultElement src={data.thumbnail[0].url} title={data.title} channel={data.channelTitle} views={data.viewCount} timeAgo={data.publishedTimeText} key={i} /> </Link>
+            return <Link to={`/Youtube-Clone/video?videoid=${data.videoId}`}><SearchResultElement src={data.thumbnail[0].url} title={data.title} channel={data.channelTitle} views={data.viewCount} timeAgo={data.publishedTimeText} key={i} /> </Link>
           }
         })
       }

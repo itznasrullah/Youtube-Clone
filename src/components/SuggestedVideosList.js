@@ -10,7 +10,7 @@ const SuggestedVideosList = () => {
         {
           SuggestedVideoApi ? (SuggestedVideoApi.data.map((data, i) => {
             if (data.type === "video") {
-              return <Link to={`/video?videoid=${data.videoId}`}> <SuggestedVideo src={data.thumbnail[2].url} title={data.title} channel={data.channelTitle} views={data.viewCount} timeAgo={data.publishedTimeText} key={i} /> </Link>
+              return <Link to={`/Youtube-Clone/video?videoid=${data.videoId}`}> <SuggestedVideo src={data.thumbnail[2].url} title={data.title} channel={data.channelTitle} views={data.viewCount} timeAgo={data.publishedTimeText} key={i} /> </Link>
             }
           })) : ""
         }

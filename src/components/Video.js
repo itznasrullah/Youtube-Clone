@@ -43,7 +43,7 @@ const Video = () => {
       <div className='recommended-Video'>
         {
           RelatedVideo && RelatedVideo.data.map((data, i) => {
-            return <Link to={`/video?videoid=${data.videoId}`}> <RecommendedVideoElement src={data.thumbnail[data.thumbnail.length - 1].url} title={data.title} channel={data.channelTitle} views={data.viewCount} key={i} /> </Link>
+            return <Link to={`/Youtube-Clone/video?videoid=${data.videoId}`}> <RecommendedVideoElement src={data.thumbnail[data.thumbnail.length - 1].url} title={data.title} channel={data.channelTitle} views={data.viewCount} key={i} /> </Link>
           })
         }
       </div>

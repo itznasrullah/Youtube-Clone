@@ -16,6 +16,11 @@ function App() {
               <SideMenu /> <SuggestedVideosList />
             </div>}
           />
+          <Route path="/Youtube-Clone" element={
+            <div className="main-video-list">
+              <SideMenu /> <SuggestedVideosList />
+            </div>}
+          />
           <Route path="searchResults" element={ <> <SideMenu /> <SearchResults /> </> } />
           <Route path="video" element={<Video />} />
         </Routes>

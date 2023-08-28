@@ -1,0 +1,33 @@
+.RecommendedVideoElement{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Video .RecommendedVideoElement .title-views-ago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.Video .RecommendedVideoElement .Video-title{
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.Video .RecommendedVideoElement .search-video{
+    aspect-ratio: 16 / 9;
+    height: 6rem;
+    border-radius: 0.5rem;
+}
+
+.Video .RecommendedVideoElement .Video-channel{
+    color: rgb(97, 97, 97);
+    font-size: 0.8rem;
+}
+
+.Video .RecommendedVideoElement .Views-TimeAgo{
+    color: rgb(97, 97, 97);
+    display: flex;
+    font-size: 0.8rem;
+}

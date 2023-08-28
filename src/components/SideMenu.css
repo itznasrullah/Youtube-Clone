@@ -1,0 +1,19 @@
+.Side-Menu{
+    background-color: rgb(236, 236, 236);
+    width: 15%;
+    padding: 0 0.6rem;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+}
+
+.Side-Menu .selected{
+    background-color: rgb(234, 234, 234);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+    .Side-Menu{
+        display: none;
+    }
+}

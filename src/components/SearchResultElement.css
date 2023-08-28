@@ -1,0 +1,48 @@
+.SearchResultElement{
+    display: flex;
+    margin: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.SearchResultElement .title-views-ago{
+    padding: 0 1rem;
+}
+
+.SearchResultElement .Video-title{
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.SearchResultElement .search-video{
+    aspect-ratio: 16 / 9;
+    height: 12rem;
+    border-radius: 0.5rem;
+}
+
+.SearchResultElement .Video-channel{
+    color: rgb(97, 97, 97);
+    font-size: 0.85rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.SearchResultElement .Views-TimeAgo{
+    color: rgb(97, 97, 97);
+    display: flex;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.SearchResultElement .Views-TimeAgo p{
+    margin: 0.4rem 0.5rem 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .SearchResultElement{
+        flex-direction: column;  
+        width: 24rem;
+    }
+
+    .SearchResultElement .title-views-ago{
+        padding: 0;
+    }
+}

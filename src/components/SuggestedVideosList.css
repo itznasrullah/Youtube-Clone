@@ -1,0 +1,28 @@
+.SuggestedVideosList{
+    width: 84%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+}
+
+.SuggestedVideosList a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.SuggestedVideosList .AllVideoElement{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    .SuggestedVideosList{
+        width: auto;
+    }
+
+    .SuggestedVideosList .AllVideoElement{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,8 @@
+.App .main-video-list{
+  display: flex;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+}

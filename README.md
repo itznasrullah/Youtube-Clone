@@ -22,7 +22,7 @@ Our platform is designed to be responsive, catering to users on various screens 
 
 ## Getting Started
 1) Clone the repository.
-git clone https://github.com/your-username/youtube-clone.git
+git clone https://github.com/itznasrullah/Youtube-Clone.git
 
 2) Install dependencies.
 npm install
@@ -36,6 +36,6 @@ Contributing
 We welcome contributions! If you have ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
 ## Demo
-Check out our live demo [here.](https://itznasrullah.github.io/Youtube-Clone)
+Check out our live demo [https://itznasrullah.github.io/Youtube-Clone](https://itznasrullah.github.io/Youtube-Clone)
 
 Thank you for checking out our YouTube Clone project. We hope you enjoy exploring the comprehensive video library and have a delightful user experience! If you have any questions or feedback, feel free to reach out.

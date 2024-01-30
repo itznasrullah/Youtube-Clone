@@ -12,31 +12,37 @@ Interact with videos through a user-friendly interface that allows liking, comme
 Immerse yourself in curated collections as you navigate through videos categorized to align with diverse interests and genres. Discover content tailored to specific themes, making your exploration more enjoyable.
 
 ### API Integration
-We've leveraged the YouTube Data API to showcase a plethora of videos. This integration ensures that our video library is constantly updated with fresh and trending content.
+I've leveraged the YouTube Data API to showcase a plethora of videos. This integration ensures that this video library is constantly updated with fresh and trending content.
 
 ### Optimized User Experience
-Experience optimal performance with our platform's efficient video streaming. Enjoy swift loading times and seamless playback for an exceptional user experience.
+Experience optimal performance with my platform's efficient video streaming. Enjoy swift loading times and seamless playback for an exceptional user experience.
 
 ### Responsive Design
-Our platform is designed to be responsive, catering to users on various screens and devices. Whether you're on a desktop, tablet, or smartphone, you can enjoy a consistent and user-friendly experience.
+This platform is designed to be responsive, catering to users on various screens and devices. Whether you're on a desktop, tablet, or smartphone, you can enjoy a consistent and user-friendly experience.
 
 ## Getting Started
-1) Clone the repository.\
+1) Clone the repository.
+```
 git clone https://github.com/itznasrullah/Youtube-Clone.git
+```
 
-2) Install dependencies.\
+2) Install dependencies.
+```
 npm install
+```
 
-3) Run the application.\
+3) Run the application.
+```
 npm start
+```
 
 Open your browser and navigate to http://localhost:3000 to start exploring the video library.
 
 Contributing
-We welcome contributions! If you have ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
+I welcome contributions! If you have ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
 ## Demo
-Check out our live demo\
+Check out my live demo\
 [https://itznasrullah.github.io/Youtube-Clone](https://itznasrullah.github.io/Youtube-Clone)
 
-Thank you for checking out our YouTube Clone project. We hope you enjoy exploring the comprehensive video library and have a delightful user experience! If you have any questions or feedback, feel free to reach out.
+Thank you for checking out my YouTube Clone project. I hope you enjoy exploring the comprehensive video library and have a delightful user experience! If you have any questions or feedback, feel free to reach out.
